@@ -1,0 +1,4 @@
+F:\GitHub\alpha\tools\calibration\positive\Probe.kt:4:17: unused is returning a constant. Prefer declaring a constant instead. [FunctionOnlyReturningConstant]
+F:\GitHub\alpha\tools\calibration\positive\Probe.kt:4:17: Private function `unused` is unused. [UnusedPrivateMember]
+
+Analysis failed with 2 weighted issues.

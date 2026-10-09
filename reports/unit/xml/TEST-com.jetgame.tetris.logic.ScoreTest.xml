@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.jetgame.tetris.logic.ScoreTest" tests="5" skipped="0" failures="0" errors="0" timestamp="2026-10-09T16:45:29" hostname="DESKTOP-6M7DFHC" time="0.001">
+  <properties/>
+  <testcase name="lineScoreMatchesThePublishedGameRules[0 lines -&gt; 0 points]" classname="com.jetgame.tetris.logic.ScoreTest" time="0.0"/>
+  <testcase name="lineScoreMatchesThePublishedGameRules[1 lines -&gt; 100 points]" classname="com.jetgame.tetris.logic.ScoreTest" time="0.0"/>
+  <testcase name="lineScoreMatchesThePublishedGameRules[2 lines -&gt; 300 points]" classname="com.jetgame.tetris.logic.ScoreTest" time="0.001"/>
+  <testcase name="lineScoreMatchesThePublishedGameRules[3 lines -&gt; 700 points]" classname="com.jetgame.tetris.logic.ScoreTest" time="0.0"/>
+  <testcase name="lineScoreMatchesThePublishedGameRules[4 lines -&gt; 1,500 points]" classname="com.jetgame.tetris.logic.ScoreTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

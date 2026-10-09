@@ -1,0 +1,217 @@
+{
+  "upstream_commit": "234416c455cd0b5524b7f2a7e91aaa9f6206457a",
+  "main_files": 42,
+  "all_main_files_match_upstream": true,
+  "files": [
+    {
+      "path": "app/src/main/AndroidManifest.xml",
+      "sha256": "365d03cc4bede61899fa8f62c29741db70b759d4d1ada285929be86441faca50",
+      "matches_upstream": true
+    },
+    {
+      "path": "app/src/main/java/com/jetgame/tetris/logic/Brick.kt",
+      "sha256": "0cbab6658393810ea4b086b3d7c1cd124756ad8c4a5357970cdcc370751a0b10",
+      "matches_upstream": true
+    },
+    {
+      "path": "app/src/main/java/com/jetgame/tetris/logic/GameViewModel.kt",
+      "sha256": "f7c024837b70d9e5811f57f1b17e05838f0334e71574fef2ddc02998bb25c328",
+      "matches_upstream": true
+    },
+    {
+      "path": "app/src/main/java/com/jetgame/tetris/logic/Spirit.kt",
+      "sha256": "ca4726b3eef2b27be7e4531a4a195d54a4c8606cb39ec4733eb2e8bba54c95fe",
+      "matches_upstream": true
+    },
+    {
+      "path": "app/src/main/java/com/jetgame/tetris/logic/Utils.kt",
+      "sha256": "6288183ed79e2d6c16c6192f239acc64155fd2028af11f19470209ff4bf9bfa6",
+      "matches_upstream": true
+    },
+    {
+      "path": "app/src/main/java/com/jetgame/tetris/MainActivity.kt",
+      "sha256": "13ca84c9f6714f5bf0a4ee476c6beaf5cd986d85c742f4bbfbfc813136960064",
+      "matches_upstream": true
+    },
+    {
+      "path": "app/src/main/java/com/jetgame/tetris/ui/AppIcon.kt",
+      "sha256": "99d66672dd57edde0763b602f000dd251b24877f9a6eb8d06824edf932b1d97b",
+      "matches_upstream": true
+    },
+    {
+      "path": "app/src/main/java/com/jetgame/tetris/ui/GameBody.kt",
+      "sha256": "b6013a5ca12b9a6d2eefc4ac810e574ca75e6f811ce4a7d7726599edaba4917d",
+      "matches_upstream": true
+    },
+    {
+      "path": "app/src/main/java/com/jetgame/tetris/ui/GameButton.kt",
+      "sha256": "e729c7018298ba7d8d0e951d28eb5acdcfb2abace8de3b41ee41dfef3003e57a",
+      "matches_upstream": true
+    },
+    {
+      "path": "app/src/main/java/com/jetgame/tetris/ui/GameScreen.kt",
+      "sha256": "41eccb2165fdb9c0d662e3d923709e08e65c50d29d23425a4d5dd0917b4340a9",
+      "matches_upstream": true
+    },
+    {
+      "path": "app/src/main/java/com/jetgame/tetris/ui/LedNumber.kt",
+      "sha256": "56345e9bb6b35d71b08e4c427e6e2accea8866698c56436218096a09359e77f6",
+      "matches_upstream": true
+    },
+    {
+      "path": "app/src/main/java/com/jetgame/tetris/ui/theme/Color.kt",
+      "sha256": "b451c3649fb9fc2e599873a049e891a3d84d02bd990e68dfc38df6286918685e",
+      "matches_upstream": true
+    },
+    {
+      "path": "app/src/main/java/com/jetgame/tetris/ui/theme/Shape.kt",
+      "sha256": "eda35706afd957902436130af742a62dae96f3820336581b4c17233fa3516891",
+      "matches_upstream": true
+    },
+    {
+      "path": "app/src/main/java/com/jetgame/tetris/ui/theme/Theme.kt",
+      "sha256": "1dd22c95d4e4767b8427b4f2cd3257759412f98fad9bee78551bdd70e1cb73e5",
+      "matches_upstream": true
+    },
+    {
+      "path": "app/src/main/java/com/jetgame/tetris/ui/theme/Type.kt",
+      "sha256": "3038057f5b8739b9083a491a72ba73d4c7600e91d982cdf3728875f0cffba682",
+      "matches_upstream": true
+    },
+    {
+      "path": "app/src/main/res/drawable/ic_launcher.png",
+      "sha256": "56d1de0d9cd5160ea7d253dbbd69e67452293e3ab3d67336fe7d75b5a1aeb2e5",
+      "matches_upstream": true
+    },
+    {
+      "path": "app/src/main/res/drawable/ic_launcher_background.xml",
+      "sha256": "38381d0d0a64770d992c98e5b5e492555690af40e2fc6ee59e5a1c2a7c0fdcde",
+      "matches_upstream": true
+    },
+    {
+      "path": "app/src/main/res/drawable-v24/ic_baseline_music_off_24.xml",
+      "sha256": "cb38594b22b19d6f6715c4f98d28263ad08c440caa8b0fa5909ed7a691eb5140",
+      "matches_upstream": true
+    },
+    {
+      "path": "app/src/main/res/drawable-v24/ic_baseline_pause_24.xml",
+      "sha256": "dfd128d0d0222cce533d1df4dde899cd33fd581b97f5bf33384b2580500e46fa",
+      "matches_upstream": true
+    },
+    {
+      "path": "app/src/main/res/drawable-v24/ic_launcher_foreground.xml",
+      "sha256": "6e3c1bb64d9bec079cf0030d867c58b064d2fb19ca6c5a691543c43134f64a2a",
+      "matches_upstream": true
+    },
+    {
+      "path": "app/src/main/res/font/unidream_led.ttf",
+      "sha256": "bd18fcd302c22508949f18a2951007ee32b16a313701c3f21e01740f30d339fe",
+      "matches_upstream": true
+    },
+    {
+      "path": "app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml",
+      "sha256": "9f2e5983459ac3824abb0884f3cd1df8b1d576f142f0df5e498cae9ea04d4e18",
+      "matches_upstream": true
+    },
+    {
+      "path": "app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml",
+      "sha256": "9f2e5983459ac3824abb0884f3cd1df8b1d576f142f0df5e498cae9ea04d4e18",
+      "matches_upstream": true
+    },
+    {
+      "path": "app/src/main/res/mipmap-hdpi/ic_launcher.webp",
+      "sha256": "dd00996198640ed28fbc09cdcd7a3807cf8707f3eb255b659634da3ca6a6ff01",
+      "matches_upstream": true
+    },
+    {
+      "path": "app/src/main/res/mipmap-hdpi/ic_launcher_round.webp",
+      "sha256": "1ed73f5341a69d3b41c7e02e126803f50cc8c3284adf4bbb737f0c93577aef07",
+      "matches_upstream": true
+    },
+    {
+      "path": "app/src/main/res/mipmap-mdpi/ic_launcher.webp",
+      "sha256": "846219e6f72fe9a6c104ca8919cbee36a101e7d2ff8da9da67b689a5888f060d",
+      "matches_upstream": true
+    },
+    {
+      "path": "app/src/main/res/mipmap-mdpi/ic_launcher_round.webp",
+      "sha256": "4e2c58b91de01130e6479e00cbbaaf6e77cd961dd2c8e303cf13cd077fa92632",
+      "matches_upstream": true
+    },
+    {
+      "path": "app/src/main/res/mipmap-xhdpi/ic_launcher.webp",
+      "sha256": "398340dad816fc9a6338cb151a8cf1e45b926f9bfb70628b24c4bd2523cc94d4",
+      "matches_upstream": true
+    },
+    {
+      "path": "app/src/main/res/mipmap-xhdpi/ic_launcher_round.webp",
+      "sha256": "91b490aef86574901137f0a252272e1f1add99c1ad709e0696ed68929b88d261",
+      "matches_upstream": true
+    },
+    {
+      "path": "app/src/main/res/mipmap-xxhdpi/ic_launcher.webp",
+      "sha256": "58ae87fa0c5b5d1562d27fd648d2c061553fe20e3ed570bde588162d01ea7a27",
+      "matches_upstream": true
+    },
+    {
+      "path": "app/src/main/res/mipmap-xxhdpi/ic_launcher_round.webp",
+      "sha256": "3009fad079f5772f30ecd767f98924367fbe0f81c30048d672d4fda2d5ca7d12",
+      "matches_upstream": true
+    },
+    {
+      "path": "app/src/main/res/mipmap-xxxhdpi/ic_launcher.webp",
+      "sha256": "f98fef5bc3bfe5b65692c40ad1cbae2bec4faf9f1b249c397626740db71b62d8",
+      "matches_upstream": true
+    },
+    {
+      "path": "app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.webp",
+      "sha256": "5faf033745c8c882c43bb1b372d4e4a5890caec63d9892a2e756c954108b85dc",
+      "matches_upstream": true
+    },
+    {
+      "path": "app/src/main/res/raw/clean.mp3",
+      "sha256": "6f332c5c9e4ca3f3dd1d87cd1d2edd2291f44c01fd1262dc97a20f11e2a3be3c",
+      "matches_upstream": true
+    },
+    {
+      "path": "app/src/main/res/raw/drop.mp3",
+      "sha256": "5dc43c79cd947a5d03608fe02c9fcf8f698e47effcd732abff32f01390cac6b5",
+      "matches_upstream": true
+    },
+    {
+      "path": "app/src/main/res/raw/move.mp3",
+      "sha256": "ee07ed56256599acb7fdd1bef797e79f2c07987111593a1624bdb81b89aefcb7",
+      "matches_upstream": true
+    },
+    {
+      "path": "app/src/main/res/raw/rotate.mp3",
+      "sha256": "98bcecbe2017b2b08511b27a1583470647b4ccdf2e11de2f7a55fada817806d8",
+      "matches_upstream": true
+    },
+    {
+      "path": "app/src/main/res/raw/start.mp3",
+      "sha256": "41ed5eb58e522d6ebbdddf1bc51b49c20a17219de86a01ee03e30fd69bf746c9",
+      "matches_upstream": true
+    },
+    {
+      "path": "app/src/main/res/values/colors.xml",
+      "sha256": "31e0230ab2d96fa128a11705e85e590f3462745dc3c04bc851bc724a445921c1",
+      "matches_upstream": true
+    },
+    {
+      "path": "app/src/main/res/values/strings.xml",
+      "sha256": "53458e54ed88988aace9f25d02715c619e236e2f7c480dcc972d5c514bb403a8",
+      "matches_upstream": true
+    },
+    {
+      "path": "app/src/main/res/values/themes.xml",
+      "sha256": "bad6d9c956587cb9d195db044b59d2e26a00fe402d5cb8249876455bdbb16167",
+      "matches_upstream": true
+    },
+    {
+      "path": "app/src/main/res/values-night/themes.xml",
+      "sha256": "8dde20b039bb0e27feb02dab1ebbe5cb88c19ebe65b8cf362a899f82296da618",
+      "matches_upstream": true
+    }
+  ]
+}

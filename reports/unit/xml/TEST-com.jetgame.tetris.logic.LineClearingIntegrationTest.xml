@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.jetgame.tetris.logic.LineClearingIntegrationTest" tests="9" skipped="0" failures="0" errors="0" timestamp="2026-10-09T16:45:29" hostname="DESKTOP-6M7DFHC" time="0.002">
+  <properties/>
+  <testcase name="aFallingPieceCompletesOneRow" classname="com.jetgame.tetris.logic.LineClearingIntegrationTest" time="0.0"/>
+  <testcase name="incompleteRowIsPreserved" classname="com.jetgame.tetris.logic.LineClearingIntegrationTest" time="0.001"/>
+  <testcase name="twoCompleteRowsAreRemoved" classname="com.jetgame.tetris.logic.LineClearingIntegrationTest" time="0.0"/>
+  <testcase name="separatedFullRowsApplyTheCorrectNumberOfShifts" classname="com.jetgame.tetris.logic.LineClearingIntegrationTest" time="0.0"/>
+  <testcase name="fourCompleteRowsAreRemoved" classname="com.jetgame.tetris.logic.LineClearingIntegrationTest" time="0.0"/>
+  <testcase name="threeCompleteRowsAreRemoved" classname="com.jetgame.tetris.logic.LineClearingIntegrationTest" time="0.0"/>
+  <testcase name="aCompleteTopRowCanBeRemoved" classname="com.jetgame.tetris.logic.LineClearingIntegrationTest" time="0.0"/>
+  <testcase name="emptyBoardClearsNoRows" classname="com.jetgame.tetris.logic.LineClearingIntegrationTest" time="0.0"/>
+  <testcase name="cellsAboveTheClearedRowMoveDownAndCellsBelowStay" classname="com.jetgame.tetris.logic.LineClearingIntegrationTest" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

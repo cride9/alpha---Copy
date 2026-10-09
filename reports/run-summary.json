@@ -1,0 +1,99 @@
+{
+  "collected_at_utc": "2026-10-09T17:07:38.478492+00:00",
+  "upstream_commit": "234416c455cd0b5524b7f2a7e91aaa9f6206457a",
+  "junit": {
+    "tests": 87,
+    "failures": 0,
+    "errors": 0,
+    "skipped": 0
+  },
+  "junit_suites": [
+    {
+      "name": "com.jetgame.tetris.ExampleUnitTest",
+      "tests": 1,
+      "timestamp_utc": "2026-10-09T16:45:28"
+    },
+    {
+      "name": "com.jetgame.tetris.logic.BrickTest",
+      "tests": 5,
+      "timestamp_utc": "2026-10-09T16:45:28"
+    },
+    {
+      "name": "com.jetgame.tetris.logic.GameActionIntegrationTest",
+      "tests": 13,
+      "timestamp_utc": "2026-10-09T16:45:28"
+    },
+    {
+      "name": "com.jetgame.tetris.logic.LineClearingIntegrationTest",
+      "tests": 9,
+      "timestamp_utc": "2026-10-09T16:45:29"
+    },
+    {
+      "name": "com.jetgame.tetris.logic.ScoreTest",
+      "tests": 5,
+      "timestamp_utc": "2026-10-09T16:45:29"
+    },
+    {
+      "name": "com.jetgame.tetris.logic.ShapeContractTest",
+      "tests": 28,
+      "timestamp_utc": "2026-10-09T16:45:29"
+    },
+    {
+      "name": "com.jetgame.tetris.logic.SpiritTest",
+      "tests": 11,
+      "timestamp_utc": "2026-10-09T16:45:28"
+    },
+    {
+      "name": "com.jetgame.tetris.logic.ViewStateLevelTest",
+      "tests": 11,
+      "timestamp_utc": "2026-10-09T16:45:29"
+    },
+    {
+      "name": "com.jetgame.tetris.logic.ViewStateTest",
+      "tests": 4,
+      "timestamp_utc": "2026-10-09T16:45:29"
+    }
+  ],
+  "lint": {
+    "total": 23,
+    "severity": {
+      "Warning": 23
+    },
+    "rules": {
+      "RedundantLabel": 1,
+      "GradleDependency": 12,
+      "ModifierParameter": 1,
+      "UnusedResources": 7,
+      "IconLauncherShape": 1,
+      "IconLocation": 1
+    }
+  },
+  "detekt": {
+    "total": 101,
+    "rules": {
+      "LongMethod": 4,
+      "CyclomaticComplexMethod": 1,
+      "TopLevelPropertyNaming": 3,
+      "ForEachOnRange": 4,
+      "NewLineAtEndOfFile": 13,
+      "MagicNumber": 52,
+      "FunctionNaming": 14,
+      "UnusedPrivateMember": 1,
+      "VariableNaming": 3,
+      "WildcardImport": 4,
+      "LongParameterList": 1,
+      "ImplicitDefaultLocale": 1
+    }
+  },
+  "manual_android": {
+    "ledger": "docs/Compose_Tetris_Funkcionalis_Jegyzokonyv.md",
+    "recorded_statuses": {
+      "NOT RUN": 50
+    },
+    "note": "Counts from the manually maintained ledger; not verified by this script."
+  },
+  "apk": {
+    "path": "software/compose-tetris/app/build/outputs/apk/debug/app-debug.apk",
+    "sha256": "297f5c20cbff2a50392106642d6a79bba883202d9e262fc68f7507c85c93d2ee"
+  }
+}

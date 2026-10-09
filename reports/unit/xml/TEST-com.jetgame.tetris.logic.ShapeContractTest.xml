@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.jetgame.tetris.logic.ShapeContractTest" tests="28" skipped="0" failures="0" errors="0" timestamp="2026-10-09T16:45:29" hostname="DESKTOP-6M7DFHC" time="0.004">
+  <properties/>
+  <testcase name="conversionToBricksPreservesAllAbsoluteCells[Z]" classname="com.jetgame.tetris.logic.ShapeContractTest" time="0.0"/>
+  <testcase name="shapeHasFourDifferentCells[Z]" classname="com.jetgame.tetris.logic.ShapeContractTest" time="0.0"/>
+  <testcase name="fourRotationsRestoreThePieceExactly[Z]" classname="com.jetgame.tetris.logic.ShapeContractTest" time="0.0"/>
+  <testcase name="everyOrientationFitsOnAnEmptyBoard[Z]" classname="com.jetgame.tetris.logic.ShapeContractTest" time="0.001"/>
+  <testcase name="conversionToBricksPreservesAllAbsoluteCells[S]" classname="com.jetgame.tetris.logic.ShapeContractTest" time="0.0"/>
+  <testcase name="shapeHasFourDifferentCells[S]" classname="com.jetgame.tetris.logic.ShapeContractTest" time="0.0"/>
+  <testcase name="fourRotationsRestoreThePieceExactly[S]" classname="com.jetgame.tetris.logic.ShapeContractTest" time="0.0"/>
+  <testcase name="everyOrientationFitsOnAnEmptyBoard[S]" classname="com.jetgame.tetris.logic.ShapeContractTest" time="0.0"/>
+  <testcase name="conversionToBricksPreservesAllAbsoluteCells[I]" classname="com.jetgame.tetris.logic.ShapeContractTest" time="0.0"/>
+  <testcase name="shapeHasFourDifferentCells[I]" classname="com.jetgame.tetris.logic.ShapeContractTest" time="0.0"/>
+  <testcase name="fourRotationsRestoreThePieceExactly[I]" classname="com.jetgame.tetris.logic.ShapeContractTest" time="0.0"/>
+  <testcase name="everyOrientationFitsOnAnEmptyBoard[I]" classname="com.jetgame.tetris.logic.ShapeContractTest" time="0.001"/>
+  <testcase name="conversionToBricksPreservesAllAbsoluteCells[T]" classname="com.jetgame.tetris.logic.ShapeContractTest" time="0.0"/>
+  <testcase name="shapeHasFourDifferentCells[T]" classname="com.jetgame.tetris.logic.ShapeContractTest" time="0.0"/>
+  <testcase name="fourRotationsRestoreThePieceExactly[T]" classname="com.jetgame.tetris.logic.ShapeContractTest" time="0.0"/>
+  <testcase name="everyOrientationFitsOnAnEmptyBoard[T]" classname="com.jetgame.tetris.logic.ShapeContractTest" time="0.0"/>
+  <testcase name="conversionToBricksPreservesAllAbsoluteCells[O]" classname="com.jetgame.tetris.logic.ShapeContractTest" time="0.0"/>
+  <testcase name="shapeHasFourDifferentCells[O]" classname="com.jetgame.tetris.logic.ShapeContractTest" time="0.001"/>
+  <testcase name="fourRotationsRestoreThePieceExactly[O]" classname="com.jetgame.tetris.logic.ShapeContractTest" time="0.0"/>
+  <testcase name="everyOrientationFitsOnAnEmptyBoard[O]" classname="com.jetgame.tetris.logic.ShapeContractTest" time="0.0"/>
+  <testcase name="conversionToBricksPreservesAllAbsoluteCells[L]" classname="com.jetgame.tetris.logic.ShapeContractTest" time="0.0"/>
+  <testcase name="shapeHasFourDifferentCells[L]" classname="com.jetgame.tetris.logic.ShapeContractTest" time="0.0"/>
+  <testcase name="fourRotationsRestoreThePieceExactly[L]" classname="com.jetgame.tetris.logic.ShapeContractTest" time="0.0"/>
+  <testcase name="everyOrientationFitsOnAnEmptyBoard[L]" classname="com.jetgame.tetris.logic.ShapeContractTest" time="0.0"/>
+  <testcase name="conversionToBricksPreservesAllAbsoluteCells[J]" classname="com.jetgame.tetris.logic.ShapeContractTest" time="0.0"/>
+  <testcase name="shapeHasFourDifferentCells[J]" classname="com.jetgame.tetris.logic.ShapeContractTest" time="0.0"/>
+  <testcase name="fourRotationsRestoreThePieceExactly[J]" classname="com.jetgame.tetris.logic.ShapeContractTest" time="0.0"/>
+  <testcase name="everyOrientationFitsOnAnEmptyBoard[J]" classname="com.jetgame.tetris.logic.ShapeContractTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

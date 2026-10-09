@@ -1,0 +1,101 @@
+LongMethod - 129/60 - [reduce] at F:\GitHub\alpha\software\compose-tetris\app\src\main\java\com\jetgame\tetris\logic\GameViewModel.kt:26:17 - Signature=GameViewModel.kt$GameViewModel$private fun reduce(state: ViewState, action: Action)
+CyclomaticComplexMethod - 35/15 - [reduce] at F:\GitHub\alpha\software\compose-tetris\app\src\main\java\com\jetgame\tetris\logic\GameViewModel.kt:26:17 - Signature=GameViewModel.kt$GameViewModel$private fun reduce(state: ViewState, action: Action)
+LongMethod - 80/60 - [AppIcon] at F:\GitHub\alpha\software\compose-tetris\app\src\main\java\com\jetgame\tetris\ui\AppIcon.kt:30:13 - Signature=AppIcon.kt$@Composable private fun AppIcon()
+LongMethod - 170/60 - [GameBody] at F:\GitHub\alpha\software\compose-tetris\app\src\main\java\com\jetgame\tetris\ui\GameBody.kt:37:5 - Signature=GameBody.kt$@Composable fun GameBody( clickable: Clickable = combinedClickable(), screen: @Composable () -> Unit )
+LongMethod - 73/60 - [GameButton] at F:\GitHub\alpha\software\compose-tetris\app\src\main\java\com\jetgame\tetris\ui\GameButton.kt:39:5 - Signature=GameButton.kt$@OptIn(ExperimentalComposeUiApi::class) @Composable fun GameButton( modifier: Modifier = Modifier, size: Dp, onClick: () -> Unit = {}, autoInvokeWhenPressed: Boolean = false, content: @Composable (Modifier) -> Unit = {} )
+LongParameterList - 8/6 - [GameScoreboard] at F:\GitHub\alpha\software\compose-tetris\app\src\main\java\com\jetgame\tetris\ui\GameScreen.kt:116:19 - Signature=GameScreen.kt$( modifier: Modifier = Modifier, brickSize: Float = 35f, spirit: Spirit, score: Int = 0, line: Int = 0, level: Int = 1, isMute: Boolean = false, isPaused: Boolean = false )
+TopLevelPropertyNaming - [MatrixWidth] at F:\GitHub\alpha\software\compose-tetris\app\src\main\java\com\jetgame\tetris\logic\GameViewModel.kt:288:19 - Signature=GameViewModel.kt$private const val MatrixWidth = 12
+TopLevelPropertyNaming - [MatrixHeight] at F:\GitHub\alpha\software\compose-tetris\app\src\main\java\com\jetgame\tetris\logic\GameViewModel.kt:289:19 - Signature=GameViewModel.kt$private const val MatrixHeight = 24
+TopLevelPropertyNaming - [ScoreEverySpirit] at F:\GitHub\alpha\software\compose-tetris\app\src\main\java\com\jetgame\tetris\logic\Utils.kt:42:11 - Signature=Utils.kt$const val ScoreEverySpirit = 12
+FunctionNaming - [Offset] at F:\GitHub\alpha\software\compose-tetris\app\src\main\java\com\jetgame\tetris\logic\Utils.kt:19:5 - Signature=Utils.kt$fun Offset(x: Int, y: Int)
+FunctionNaming - [DefaultPreview] at F:\GitHub\alpha\software\compose-tetris\app\src\main\java\com\jetgame\tetris\MainActivity.kt:104:5 - Signature=MainActivity.kt$@Preview(showBackground = true) @Composable fun DefaultPreview()
+FunctionNaming - [AppIcon] at F:\GitHub\alpha\software\compose-tetris\app\src\main\java\com\jetgame\tetris\ui\AppIcon.kt:30:13 - Signature=AppIcon.kt$@Composable private fun AppIcon()
+FunctionNaming - [PreviewAppIcon] at F:\GitHub\alpha\software\compose-tetris\app\src\main\java\com\jetgame\tetris\ui\AppIcon.kt:128:13 - Signature=AppIcon.kt$@Preview(widthDp = 400, heightDp = 400) @Composable private fun PreviewAppIcon()
+FunctionNaming - [GameBody] at F:\GitHub\alpha\software\compose-tetris\app\src\main\java\com\jetgame\tetris\ui\GameBody.kt:37:5 - Signature=GameBody.kt$@Composable fun GameBody( clickable: Clickable = combinedClickable(), screen: @Composable () -> Unit )
+FunctionNaming - [PreviewGameBody] at F:\GitHub\alpha\software\compose-tetris\app\src\main\java\com\jetgame\tetris\ui\GameBody.kt:306:5 - Signature=GameBody.kt$@Preview(widthDp = 400, heightDp = 700) @Composable fun PreviewGameBody()
+VariableNaming - [SettingText] at F:\GitHub\alpha\software\compose-tetris\app\src\main\java\com\jetgame\tetris\ui\GameBody.kt:110:13 - Signature=GameBody.kt$val SettingText = @Composable { text: String, modifier: Modifier -> Text( text, modifier = modifier, color = Color.Black.copy(0.9f), fontSize = 12.sp, textAlign = TextAlign.Center ) }
+VariableNaming - [ButtonText] at F:\GitHub\alpha\software\compose-tetris\app\src\main\java\com\jetgame\tetris\ui\GameBody.kt:168:13 - Signature=GameBody.kt$val ButtonText = @Composable { modifier: Modifier, text: String -> Text( text, modifier = modifier, color = Color.White.copy(0.9f), fontSize = 18.sp ) }
+FunctionNaming - [GameButton] at F:\GitHub\alpha\software\compose-tetris\app\src\main\java\com\jetgame\tetris\ui\GameButton.kt:39:5 - Signature=GameButton.kt$@OptIn(ExperimentalComposeUiApi::class) @Composable fun GameButton( modifier: Modifier = Modifier, size: Dp, onClick: () -> Unit = {}, autoInvokeWhenPressed: Boolean = false, content: @Composable (Modifier) -> Unit = {} )
+FunctionNaming - [GameScreen] at F:\GitHub\alpha\software\compose-tetris\app\src\main\java\com\jetgame\tetris\ui\GameScreen.kt:60:5 - Signature=GameScreen.kt$@ObsoleteCoroutinesApi @Composable fun GameScreen(modifier: Modifier = Modifier)
+FunctionNaming - [GameScoreboard] at F:\GitHub\alpha\software\compose-tetris\app\src\main\java\com\jetgame\tetris\ui\GameScreen.kt:116:5 - Signature=GameScreen.kt$@Composable fun GameScoreboard( modifier: Modifier = Modifier, brickSize: Float = 35f, spirit: Spirit, score: Int = 0, line: Int = 0, level: Int = 1, isMute: Boolean = false, isPaused: Boolean = false )
+FunctionNaming - [PreviewGamescreen] at F:\GitHub\alpha\software\compose-tetris\app\src\main\java\com\jetgame\tetris\ui\GameScreen.kt:318:5 - Signature=GameScreen.kt$@Preview @Composable fun PreviewGamescreen( modifier: Modifier = Modifier .width(260.dp) .height(300.dp) )
+FunctionNaming - [PreviewSpiritType] at F:\GitHub\alpha\software\compose-tetris\app\src\main\java\com\jetgame\tetris\ui\GameScreen.kt:361:5 - Signature=GameScreen.kt$@Preview @Composable fun PreviewSpiritType()
+FunctionNaming - [LedClock] at F:\GitHub\alpha\software\compose-tetris\app\src\main\java\com\jetgame\tetris\ui\LedNumber.kt:38:5 - Signature=LedNumber.kt$@Composable fun LedClock(modifier: Modifier = Modifier)
+FunctionNaming - [LedNumber] at F:\GitHub\alpha\software\compose-tetris\app\src\main\java\com\jetgame\tetris\ui\LedNumber.kt:93:5 - Signature=LedNumber.kt$@Composable fun LedNumber( modifier: Modifier = Modifier, num: Int, digits: Int, fillZero: Boolean = false )
+VariableNaming - [LedComma] at F:\GitHub\alpha\software\compose-tetris\app\src\main\java\com\jetgame\tetris\ui\LedNumber.kt:61:13 - Signature=LedNumber.kt$val LedComma: @Composable (color: Color) -> Unit = remember { { Text( ":", fontFamily = LedFontFamily, textAlign = TextAlign.End, color = it, fontSize = 16.sp, modifier = Modifier.fillMaxWidth() ) } }
+FunctionNaming - [ComposetetrisTheme] at F:\GitHub\alpha\software\compose-tetris\app\src\main\java\com\jetgame\tetris\ui\theme\Theme.kt:31:5 - Signature=Theme.kt$@Composable fun ComposetetrisTheme( darkTheme: Boolean = isSystemInDarkTheme(), content: @Composable() () -> Unit )
+ForEachOnRange - [clearScreen] at F:\GitHub\alpha\software\compose-tetris\app\src\main\java\com\jetgame\tetris\logic\GameViewModel.kt:180:10 - Signature=GameViewModel.kt$GameViewModel$state.matrix.second downTo 0
+ForEachOnRange - [clearScreen] at F:\GitHub\alpha\software\compose-tetris\app\src\main\java\com\jetgame\tetris\logic\GameViewModel.kt:191:10 - Signature=GameViewModel.kt$GameViewModel$0..state.matrix.second
+ForEachOnRange - [<anonymous>] at F:\GitHub\alpha\software\compose-tetris\app\src\main\java\com\jetgame\tetris\ui\GameScreen.kt:227:10 - Signature=GameScreen.kt$0 until matrix.second
+ForEachOnRange - [drawMatrix] at F:\GitHub\alpha\software\compose-tetris\app\src\main\java\com\jetgame\tetris\ui\GameScreen.kt:226:6 - Signature=GameScreen.kt$0 until matrix.first
+ImplicitDefaultLocale - [str] at F:\GitHub\alpha\software\compose-tetris\app\src\main\java\com\jetgame\tetris\ui\LedNumber.kt:119:37 - Signature=LedNumber.kt$String.format("%0${digits}d", num)
+NewLineAtEndOfFile - [Brick.kt] at F:\GitHub\alpha\software\compose-tetris\app\src\main\java\com\jetgame\tetris\logic\Brick.kt:26:2 - Signature=Brick.kt$com.jetgame.tetris.logic.Brick.kt
+NewLineAtEndOfFile - [GameViewModel.kt] at F:\GitHub\alpha\software\compose-tetris\app\src\main\java\com\jetgame\tetris\logic\GameViewModel.kt:289:36 - Signature=GameViewModel.kt$com.jetgame.tetris.logic.GameViewModel.kt
+MagicNumber - [<anonymous>] at F:\GitHub\alpha\software\compose-tetris\app\src\main\java\com\jetgame\tetris\logic\GameViewModel.kt:143:44 - Signature=GameViewModel.kt$GameViewModel$5
+MagicNumber - [<anonymous>] at F:\GitHub\alpha\software\compose-tetris\app\src\main\java\com\jetgame\tetris\logic\GameViewModel.kt:151:47 - Signature=GameViewModel.kt$GameViewModel$100
+MagicNumber - [<anonymous>] at F:\GitHub\alpha\software\compose-tetris\app\src\main\java\com\jetgame\tetris\logic\GameViewModel.kt:189:19 - Signature=GameViewModel.kt$GameViewModel$50
+MagicNumber - [<anonymous>] at F:\GitHub\alpha\software\compose-tetris\app\src\main\java\com\jetgame\tetris\logic\GameViewModel.kt:199:19 - Signature=GameViewModel.kt$GameViewModel$50
+MagicNumber - [level] at F:\GitHub\alpha\software\compose-tetris\app\src\main\java\com\jetgame\tetris\logic\GameViewModel.kt:253:25 - Signature=GameViewModel.kt$GameViewModel.ViewState$10
+MagicNumber - [level] at F:\GitHub\alpha\software\compose-tetris\app\src\main\java\com\jetgame\tetris\logic\GameViewModel.kt:253:40 - Signature=GameViewModel.kt$GameViewModel.ViewState$20
+NewLineAtEndOfFile - [Spirit.kt] at F:\GitHub\alpha\software\compose-tetris\app\src\main\java\com\jetgame\tetris\logic\Spirit.kt:68:2 - Signature=Spirit.kt$com.jetgame.tetris.logic.Spirit.kt
+NewLineAtEndOfFile - [Utils.kt] at F:\GitHub\alpha\software\compose-tetris\app\src\main\java\com\jetgame\tetris\logic\Utils.kt:106:95 - Signature=Utils.kt$com.jetgame.tetris.logic.Utils.kt
+MagicNumber - [NextMatrix] at F:\GitHub\alpha\software\compose-tetris\app\src\main\java\com\jetgame\tetris\logic\Utils.kt:41:18 - Signature=Utils.kt$4
+MagicNumber - [calculateScore] at F:\GitHub\alpha\software\compose-tetris\app\src\main\java\com\jetgame\tetris\logic\Utils.kt:45:10 - Signature=Utils.kt$100
+MagicNumber - [calculateScore] at F:\GitHub\alpha\software\compose-tetris\app\src\main\java\com\jetgame\tetris\logic\Utils.kt:46:10 - Signature=Utils.kt$300
+MagicNumber - [calculateScore] at F:\GitHub\alpha\software\compose-tetris\app\src\main\java\com\jetgame\tetris\logic\Utils.kt:47:5 - Signature=Utils.kt$3
+MagicNumber - [calculateScore] at F:\GitHub\alpha\software\compose-tetris\app\src\main\java\com\jetgame\tetris\logic\Utils.kt:47:10 - Signature=Utils.kt$700
+MagicNumber - [calculateScore] at F:\GitHub\alpha\software\compose-tetris\app\src\main\java\com\jetgame\tetris\logic\Utils.kt:48:5 - Signature=Utils.kt$4
+MagicNumber - [calculateScore] at F:\GitHub\alpha\software\compose-tetris\app\src\main\java\com\jetgame\tetris\logic\Utils.kt:48:10 - Signature=Utils.kt$1500
+MagicNumber - [<anonymous>] at F:\GitHub\alpha\software\compose-tetris\app\src\main\java\com\jetgame\tetris\logic\Utils.kt:72:43 - Signature=Utils.kt$SoundUtil$4
+NewLineAtEndOfFile - [MainActivity.kt] at F:\GitHub\alpha\software\compose-tetris\app\src\main\java\com\jetgame\tetris\MainActivity.kt:110:2 - Signature=MainActivity.kt$com.jetgame.tetris.MainActivity.kt
+WildcardImport - [MainActivity.kt] at F:\GitHub\alpha\software\compose-tetris\app\src\main\java\com\jetgame\tetris\MainActivity.kt:9:1 - Signature=MainActivity.kt$import androidx.compose.runtime.*
+WildcardImport - [MainActivity.kt] at F:\GitHub\alpha\software\compose-tetris\app\src\main\java\com\jetgame\tetris\MainActivity.kt:13:1 - Signature=MainActivity.kt$import androidx.lifecycle.*
+WildcardImport - [MainActivity.kt] at F:\GitHub\alpha\software\compose-tetris\app\src\main\java\com\jetgame\tetris\MainActivity.kt:15:1 - Signature=MainActivity.kt$import com.jetgame.tetris.logic.*
+MagicNumber - [<anonymous>] at F:\GitHub\alpha\software\compose-tetris\app\src\main\java\com\jetgame\tetris\MainActivity.kt:40:35 - Signature=MainActivity.kt$MainActivity$650L
+MagicNumber - [<anonymous>] at F:\GitHub\alpha\software\compose-tetris\app\src\main\java\com\jetgame\tetris\MainActivity.kt:40:42 - Signature=MainActivity.kt$MainActivity$55
+NewLineAtEndOfFile - [AppIcon.kt] at F:\GitHub\alpha\software\compose-tetris\app\src\main\java\com\jetgame\tetris\ui\AppIcon.kt:130:2 - Signature=AppIcon.kt$com.jetgame.tetris.ui.AppIcon.kt
+MagicNumber - [<anonymous>] at F:\GitHub\alpha\software\compose-tetris\app\src\main\java\com\jetgame\tetris\ui\AppIcon.kt:87:29 - Signature=AppIcon.kt$0.55f
+MagicNumber - [<anonymous>] at F:\GitHub\alpha\software\compose-tetris\app\src\main\java\com\jetgame\tetris\ui\AppIcon.kt:112:29 - Signature=AppIcon.kt$0.45f
+UnusedPrivateMember - [PreviewAppIcon] at F:\GitHub\alpha\software\compose-tetris\app\src\main\java\com\jetgame\tetris\ui\AppIcon.kt:128:13 - Signature=AppIcon.kt$@Preview(widthDp = 400, heightDp = 400) @Composable private fun PreviewAppIcon()
+NewLineAtEndOfFile - [GameBody.kt] at F:\GitHub\alpha\software\compose-tetris\app\src\main\java\com\jetgame\tetris\ui\GameBody.kt:313:30 - Signature=GameBody.kt$com.jetgame.tetris.ui.GameBody.kt
+MagicNumber - [<anonymous>] at F:\GitHub\alpha\software\compose-tetris\app\src\main\java\com\jetgame\tetris\ui\GameBody.kt:113:42 - Signature=GameBody.kt$0.9f
+MagicNumber - [<anonymous>] at F:\GitHub\alpha\software\compose-tetris\app\src\main\java\com\jetgame\tetris\ui\GameBody.kt:172:42 - Signature=GameBody.kt$0.9f
+MagicNumber - [drawScreenBorder] at F:\GitHub\alpha\software\compose-tetris\app\src\main\java\com\jetgame\tetris\ui\GameBody.kt:265:37 - Signature=GameBody.kt$0.5f
+MagicNumber - [drawScreenBorder] at F:\GitHub\alpha\software\compose-tetris\app\src\main\java\com\jetgame\tetris\ui\GameBody.kt:282:37 - Signature=GameBody.kt$0.5f
+WildcardImport - [GameButton.kt] at F:\GitHub\alpha\software\compose-tetris\app\src\main\java\com\jetgame\tetris\ui\GameButton.kt:3:1 - Signature=GameButton.kt$import android.view.MotionEvent.*
+MagicNumber - [interaction] at F:\GitHub\alpha\software\compose-tetris\app\src\main\java\com\jetgame\tetris\ui\GameButton.kt:80:85 - Signature=GameButton.kt$50f
+MagicNumber - [interaction] at F:\GitHub\alpha\software\compose-tetris\app\src\main\java\com\jetgame\tetris\ui\GameButton.kt:80:90 - Signature=GameButton.kt$50f
+NewLineAtEndOfFile - [GameScreen.kt] at F:\GitHub\alpha\software\compose-tetris\app\src\main\java\com\jetgame\tetris\ui\GameScreen.kt:389:2 - Signature=GameScreen.kt$com.jetgame.tetris.ui.GameScreen.kt
+MagicNumber - [<anonymous>] at F:\GitHub\alpha\software\compose-tetris\app\src\main\java\com\jetgame\tetris\ui\GameScreen.kt:127:43 - Signature=GameScreen.kt$0.65f
+MagicNumber - [<anonymous>] at F:\GitHub\alpha\software\compose-tetris\app\src\main\java\com\jetgame\tetris\ui\GameScreen.kt:133:25 - Signature=GameScreen.kt$0.35f
+MagicNumber - [<anonymous>] at F:\GitHub\alpha\software\compose-tetris\app\src\main\java\com\jetgame\tetris\ui\GameScreen.kt:136:55 - Signature=GameScreen.kt$6
+MagicNumber - [<anonymous>] at F:\GitHub\alpha\software\compose-tetris\app\src\main\java\com\jetgame\tetris\ui\GameScreen.kt:141:54 - Signature=GameScreen.kt$6
+MagicNumber - [<anonymous>] at F:\GitHub\alpha\software\compose-tetris\app\src\main\java\com\jetgame\tetris\ui\GameScreen.kt:212:42 - Signature=GameScreen.kt$12
+MagicNumber - [drawText] at F:\GitHub\alpha\software\compose-tetris\app\src\main\java\com\jetgame\tetris\ui\GameScreen.kt:219:28 - Signature=GameScreen.kt$80f
+MagicNumber - [drawText] at F:\GitHub\alpha\software\compose-tetris\app\src\main\java\com\jetgame\tetris\ui\GameScreen.kt:221:31 - Signature=GameScreen.kt$60f
+MagicNumber - [gap] at F:\GitHub\alpha\software\compose-tetris\app\src\main\java\com\jetgame\tetris\ui\GameScreen.kt:239:42 - Signature=GameScreen.kt$0.05f
+MagicNumber - [outerSize] at F:\GitHub\alpha\software\compose-tetris\app\src\main\java\com\jetgame\tetris\ui\GameScreen.kt:294:33 - Signature=GameScreen.kt$0.8f
+MagicNumber - [drawBrick] at F:\GitHub\alpha\software\compose-tetris\app\src\main\java\com\jetgame\tetris\ui\GameScreen.kt:301:36 - Signature=GameScreen.kt$10
+MagicNumber - [innerSize] at F:\GitHub\alpha\software\compose-tetris\app\src\main\java\com\jetgame\tetris\ui\GameScreen.kt:304:33 - Signature=GameScreen.kt$0.5f
+MagicNumber - [brickSize] at F:\GitHub\alpha\software\compose-tetris\app\src\main\java\com\jetgame\tetris\ui\GameScreen.kt:339:30 - Signature=GameScreen.kt$12
+MagicNumber - [brickSize] at F:\GitHub\alpha\software\compose-tetris\app\src\main\java\com\jetgame\tetris\ui\GameScreen.kt:340:31 - Signature=GameScreen.kt$24
+MagicNumber - [<anonymous>] at F:\GitHub\alpha\software\compose-tetris\app\src\main\java\com\jetgame\tetris\ui\GameScreen.kt:343:47 - Signature=GameScreen.kt$12
+MagicNumber - [<anonymous>] at F:\GitHub\alpha\software\compose-tetris\app\src\main\java\com\jetgame\tetris\ui\GameScreen.kt:343:53 - Signature=GameScreen.kt$24
+MagicNumber - [<anonymous>] at F:\GitHub\alpha\software\compose-tetris\app\src\main\java\com\jetgame\tetris\ui\GameScreen.kt:344:53 - Signature=GameScreen.kt$12
+MagicNumber - [<anonymous>] at F:\GitHub\alpha\software\compose-tetris\app\src\main\java\com\jetgame\tetris\ui\GameScreen.kt:344:59 - Signature=GameScreen.kt$24
+MagicNumber - [type] at F:\GitHub\alpha\software\compose-tetris\app\src\main\java\com\jetgame\tetris\ui\GameScreen.kt:347:31 - Signature=GameScreen.kt$6
+MagicNumber - [matrix] at F:\GitHub\alpha\software\compose-tetris\app\src\main\java\com\jetgame\tetris\ui\GameScreen.kt:367:27 - Signature=GameScreen.kt$4
+NewLineAtEndOfFile - [LedNumber.kt] at F:\GitHub\alpha\software\compose-tetris\app\src\main\java\com\jetgame\tetris\ui\LedNumber.kt:135:2 - Signature=LedNumber.kt$com.jetgame.tetris.ui.LedNumber.kt
+NewLineAtEndOfFile - [Color.kt] at F:\GitHub\alpha\software\compose-tetris\app\src\main\java\com\jetgame\tetris\ui\theme\Color.kt:17:34 - Signature=Color.kt$com.jetgame.tetris.ui.theme.Color.kt
+MagicNumber - [Purple200] at F:\GitHub\alpha\software\compose-tetris\app\src\main\java\com\jetgame\tetris\ui\theme\Color.kt:5:23 - Signature=Color.kt$0xFFBB86FC
+MagicNumber - [Purple500] at F:\GitHub\alpha\software\compose-tetris\app\src\main\java\com\jetgame\tetris\ui\theme\Color.kt:6:23 - Signature=Color.kt$0xFF6200EE
+MagicNumber - [Purple700] at F:\GitHub\alpha\software\compose-tetris\app\src\main\java\com\jetgame\tetris\ui\theme\Color.kt:7:23 - Signature=Color.kt$0xFF3700B3
+MagicNumber - [Teal200] at F:\GitHub\alpha\software\compose-tetris\app\src\main\java\com\jetgame\tetris\ui\theme\Color.kt:8:21 - Signature=Color.kt$0xFF03DAC5
+MagicNumber - [BrickSpirit] at F:\GitHub\alpha\software\compose-tetris\app\src\main\java\com\jetgame\tetris\ui\theme\Color.kt:11:25 - Signature=Color.kt$0xDD000000
+MagicNumber - [BrickMatrix] at F:\GitHub\alpha\software\compose-tetris\app\src\main\java\com\jetgame\tetris\ui\theme\Color.kt:12:25 - Signature=Color.kt$0x1F000000
+MagicNumber - [BrickHighlight] at F:\GitHub\alpha\software\compose-tetris\app\src\main\java\com\jetgame\tetris\ui\theme\Color.kt:13:28 - Signature=Color.kt$0xFF560000
+MagicNumber - [ScreenBackground] at F:\GitHub\alpha\software\compose-tetris\app\src\main\java\com\jetgame\tetris\ui\theme\Color.kt:14:30 - Signature=Color.kt$0xff9ead86
+MagicNumber - [BodyColor] at F:\GitHub\alpha\software\compose-tetris\app\src\main\java\com\jetgame\tetris\ui\theme\Color.kt:17:23 - Signature=Color.kt$0xffefcc19
+NewLineAtEndOfFile - [Shape.kt] at F:\GitHub\alpha\software\compose-tetris\app\src\main\java\com\jetgame\tetris\ui\theme\Shape.kt:11:2 - Signature=Shape.kt$com.jetgame.tetris.ui.theme.Shape.kt
+NewLineAtEndOfFile - [Theme.kt] at F:\GitHub\alpha\software\compose-tetris\app\src\main\java\com\jetgame\tetris\ui\theme\Theme.kt:47:2 - Signature=Theme.kt$com.jetgame.tetris.ui.theme.Theme.kt
+NewLineAtEndOfFile - [Type.kt] at F:\GitHub\alpha\software\compose-tetris\app\src\main\java\com\jetgame\tetris\ui\theme\Type.kt:28:2 - Signature=Type.kt$com.jetgame.tetris.ui.theme.Type.kt

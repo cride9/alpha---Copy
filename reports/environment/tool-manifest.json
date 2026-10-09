@@ -1,0 +1,32 @@
+[
+  {
+    "name": "jdk",
+    "url": "https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.20.1%2B1/OpenJDK17U-jdk_x64_windows_hotspot_17.0.20.1_1.zip",
+    "archive_sha256": "e53a79c3c3d86865bd7e787903884331068e71321714ffd44f145785affc7cb0"
+  },
+  {
+    "name": "platforms;android-32",
+    "url": "https://dl.google.com/android/repository/platform-32_r01.zip",
+    "archive_sha256": "01d8da1c900e70fcf5da39767d5444e39928935b1a5927055ce749fc348ca7ae"
+  },
+  {
+    "name": "build-tools;30.0.3",
+    "url": "https://dl.google.com/android/repository/91936d4ee3ccc839f0addd53c9ebf087b1e39251.build-tools_r30.0.3-windows.zip",
+    "archive_sha256": "c7d9f4369bbeafa1057a477b75125c8ba5e06181157d492324e8264862e1b2f8"
+  },
+  {
+    "name": "platform-tools",
+    "url": "https://dl.google.com/android/repository/platform-tools_r37.0.1-win.zip",
+    "archive_sha256": "45f4d63113e895ebde0c90f194099a4676b6ac653bd28d54314a9e022bbc1a99"
+  },
+  {
+    "name": "detekt",
+    "url": "https://repo.maven.apache.org/maven2/io/gitlab/arturbosch/detekt/detekt-cli/1.23.8/detekt-cli-1.23.8-all.jar",
+    "archive_sha256": "3afe89a11120303c73c9bdda3d8fe558dd9070a6937d27819ddc04b275381245"
+  },
+  {
+    "name": "gradle",
+    "url": "https://services.gradle.org/distributions/gradle-7.3-rc-1-bin.zip",
+    "archive_sha256": "d23a3a902b3c4a8cc6952ff236fb83279a266aec1854b01286ed04788a5d3d9a"
+  }
+]

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.jetgame.tetris.logic.ViewStateLevelTest" tests="11" skipped="0" failures="0" errors="0" timestamp="2026-10-09T16:45:29" hostname="DESKTOP-6M7DFHC" time="0.001">
+  <properties/>
+  <testcase name="levelChangesAtTwentyLineBoundariesAndStopsAtTen[0 lines -&gt; level 1]" classname="com.jetgame.tetris.logic.ViewStateLevelTest" time="0.0"/>
+  <testcase name="levelChangesAtTwentyLineBoundariesAndStopsAtTen[19 lines -&gt; level 1]" classname="com.jetgame.tetris.logic.ViewStateLevelTest" time="0.0"/>
+  <testcase name="levelChangesAtTwentyLineBoundariesAndStopsAtTen[20 lines -&gt; level 2]" classname="com.jetgame.tetris.logic.ViewStateLevelTest" time="0.0"/>
+  <testcase name="levelChangesAtTwentyLineBoundariesAndStopsAtTen[21 lines -&gt; level 2]" classname="com.jetgame.tetris.logic.ViewStateLevelTest" time="0.0"/>
+  <testcase name="levelChangesAtTwentyLineBoundariesAndStopsAtTen[39 lines -&gt; level 2]" classname="com.jetgame.tetris.logic.ViewStateLevelTest" time="0.0"/>
+  <testcase name="levelChangesAtTwentyLineBoundariesAndStopsAtTen[40 lines -&gt; level 3]" classname="com.jetgame.tetris.logic.ViewStateLevelTest" time="0.0"/>
+  <testcase name="levelChangesAtTwentyLineBoundariesAndStopsAtTen[179 lines -&gt; level 9]" classname="com.jetgame.tetris.logic.ViewStateLevelTest" time="0.0"/>
+  <testcase name="levelChangesAtTwentyLineBoundariesAndStopsAtTen[180 lines -&gt; level 10]" classname="com.jetgame.tetris.logic.ViewStateLevelTest" time="0.0"/>
+  <testcase name="levelChangesAtTwentyLineBoundariesAndStopsAtTen[199 lines -&gt; level 10]" classname="com.jetgame.tetris.logic.ViewStateLevelTest" time="0.001"/>
+  <testcase name="levelChangesAtTwentyLineBoundariesAndStopsAtTen[200 lines -&gt; level 10]" classname="com.jetgame.tetris.logic.ViewStateLevelTest" time="0.0"/>
+  <testcase name="levelChangesAtTwentyLineBoundariesAndStopsAtTen[999 lines -&gt; level 10]" classname="com.jetgame.tetris.logic.ViewStateLevelTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

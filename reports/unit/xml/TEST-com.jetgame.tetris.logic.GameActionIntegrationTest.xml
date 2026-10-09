@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.jetgame.tetris.logic.GameActionIntegrationTest" tests="13" skipped="0" failures="0" errors="0" timestamp="2026-10-09T16:45:28" hostname="DESKTOP-6M7DFHC" time="0.604">
+  <properties/>
+  <testcase name="rotationChangesTheActivePiece" classname="com.jetgame.tetris.logic.GameActionIntegrationTest" time="0.064"/>
+  <testcase name="moveRightUsesTheMovementAndCollisionComponents" classname="com.jetgame.tetris.logic.GameActionIntegrationTest" time="0.001"/>
+  <testcase name="lockingAPieceAddsItsCellsAndAwardsThePlacementBonusOnce" classname="com.jetgame.tetris.logic.GameActionIntegrationTest" time="0.006"/>
+  <testcase name="moveLeftUsesTheMovementAndCollisionComponents" classname="com.jetgame.tetris.logic.GameActionIntegrationTest" time="0.006"/>
+  <testcase name="moveDownUsesTheMovementAndCollisionComponents" classname="com.jetgame.tetris.logic.GameActionIntegrationTest" time="0.005"/>
+  <testcase name="completingARowUpdatesBoardScoreLineAndLevelTogether" classname="com.jetgame.tetris.logic.GameActionIntegrationTest" time="0.513"/>
+  <testcase name="pausePreservesBoardAndCounters" classname="com.jetgame.tetris.logic.GameActionIntegrationTest" time="0.001"/>
+  <testcase name="resumePreservesThePausedGame" classname="com.jetgame.tetris.logic.GameActionIntegrationTest" time="0.0"/>
+  <testcase name="resetFromGameOverClearsCountersAndTheBoard" classname="com.jetgame.tetris.logic.GameActionIntegrationTest" time="0.0"/>
+  <testcase name="dropFindsTheLastValidPositionWithoutChangingTheScore" classname="com.jetgame.tetris.logic.GameActionIntegrationTest" time="0.005"/>
+  <testcase name="muteTogglesWithoutChangingTheBoard" classname="com.jetgame.tetris.logic.GameActionIntegrationTest" time="0.001"/>
+  <testcase name="resetFromWelcomeStartsTheGameAndPreservesMute" classname="com.jetgame.tetris.logic.GameActionIntegrationTest" time="0.001"/>
+  <testcase name="tickMovesAnUnblockedPieceDownOneCell" classname="com.jetgame.tetris.logic.GameActionIntegrationTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

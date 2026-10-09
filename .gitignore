@@ -1,0 +1,8 @@
+.tools/
+.work-mk2/
+**/build/
+**/.gradle/
+**/local.properties
+**/__pycache__/
+*.apk
+*.class

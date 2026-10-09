@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.jetgame.tetris.logic.ViewStateTest" tests="4" skipped="0" failures="0" errors="0" timestamp="2026-10-09T16:45:29" hostname="DESKTOP-6M7DFHC" time="0.0">
+  <properties/>
+  <testcase name="statusFlagsDistinguishEveryGameState" classname="com.jetgame.tetris.logic.ViewStateTest" time="0.0"/>
+  <testcase name="initialStateHasEmptyBoardAndZeroCounters" classname="com.jetgame.tetris.logic.ViewStateTest" time="0.0"/>
+  <testcase name="emptyReserveExposesAnEmptyNextPiece" classname="com.jetgame.tetris.logic.ViewStateTest" time="0.0"/>
+  <testcase name="nextPieceIsTheFirstReserveEntry" classname="com.jetgame.tetris.logic.ViewStateTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

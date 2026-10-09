@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<checkstyle version="4.3">
+<file name="software/compose-tetris/app/src/main/java/com/jetgame/tetris/logic/GameViewModel.kt">
+	<error line="26" column="17" severity="warning" message="The function reduce is too long (129). The maximum length is 60." source="detekt.LongMethod" />
+	<error line="26" column="17" severity="warning" message="The function reduce appears to be too complex based on Cyclomatic Complexity (complexity: 35). Defined complexity threshold for methods is set to &apos;15&apos;" source="detekt.CyclomaticComplexMethod" />
+	<error line="288" column="19" severity="warning" message="Top level constant names should match the pattern: [A-Z][_A-Z0-9]*" source="detekt.TopLevelPropertyNaming" />
+	<error line="289" column="19" severity="warning" message="Top level constant names should match the pattern: [A-Z][_A-Z0-9]*" source="detekt.TopLevelPropertyNaming" />
+	<error line="180" column="10" severity="warning" message="Using the forEach method on ranges has a heavy performance cost. Prefer using simple for loops." source="detekt.ForEachOnRange" />
+	<error line="191" column="10" severity="warning" message="Using the forEach method on ranges has a heavy performance cost. Prefer using simple for loops." source="detekt.ForEachOnRange" />
+	<error line="289" column="36" severity="warning" message="The file F:\GitHub\alpha\software\compose-tetris\app\src\main\java\com\jetgame\tetris\logic\GameViewModel.kt is not ending with a new line." source="detekt.NewLineAtEndOfFile" />
+	<error line="143" column="44" severity="warning" message="This expression contains a magic number. Consider defining it to a well named constant." source="detekt.MagicNumber" />
+	<error line="151" column="47" severity="warning" message="This expression contains a magic number. Consider defining it to a well named constant." source="detekt.MagicNumber" />
+	<error line="189" column="19" severity="warning" message="This expression contains a magic number. Consider defining it to a well named constant." source="detekt.MagicNumber" />
+	<error line="199" column="19" severity="warning" message="This expression contains a magic number. Consider defining it to a well named constant." source="detekt.MagicNumber" />
+	<error line="253" column="25" severity="warning" message="This expression contains a magic number. Consider defining it to a well named constant." source="detekt.MagicNumber" />
+	<error line="253" column="40" severity="warning" message="This expression contains a magic number. Consider defining it to a well named constant." source="detekt.MagicNumber" />
+</file>
+<file name="software/compose-tetris/app/src/main/java/com/jetgame/tetris/ui/AppIcon.kt">
+	<error line="30" column="13" severity="warning" message="The function AppIcon is too long (80). The maximum length is 60." source="detekt.LongMethod" />
+	<error line="30" column="13" severity="warning" message="Function names should match the pattern: [a-z][a-zA-Z0-9]*" source="detekt.FunctionNaming" />
+	<error line="128" column="13" severity="warning" message="Function names should match the pattern: [a-z][a-zA-Z0-9]*" source="detekt.FunctionNaming" />
+	<error line="130" column="2" severity="warning" message="The file F:\GitHub\alpha\software\compose-tetris\app\src\main\java\com\jetgame\tetris\ui\AppIcon.kt is not ending with a new line." source="detekt.NewLineAtEndOfFile" />
+	<error line="87" column="29" severity="warning" message="This expression contains a magic number. Consider defining it to a well named constant." source="detekt.MagicNumber" />
+	<error line="112" column="29" severity="warning" message="This expression contains a magic number. Consider defining it to a well named constant." source="detekt.MagicNumber" />
+	<error line="128" column="13" severity="warning" message="Private function `PreviewAppIcon` is unused." source="detekt.UnusedPrivateMember" />
+</file>
+<file name="software/compose-tetris/app/src/main/java/com/jetgame/tetris/ui/GameBody.kt">
+	<error line="37" column="5" severity="warning" message="The function GameBody is too long (170). The maximum length is 60." source="detekt.LongMethod" />
+	<error line="37" column="5" severity="warning" message="Function names should match the pattern: [a-z][a-zA-Z0-9]*" source="detekt.FunctionNaming" />
+	<error line="306" column="5" severity="warning" message="Function names should match the pattern: [a-z][a-zA-Z0-9]*" source="detekt.FunctionNaming" />
+	<error line="110" column="13" severity="warning" message="Variable names should match the pattern: [a-z][A-Za-z0-9]*" source="detekt.VariableNaming" />
+	<error line="168" column="13" severity="warning" message="Variable names should match the pattern: [a-z][A-Za-z0-9]*" source="detekt.VariableNaming" />
+	<error line="313" column="30" severity="warning" message="The file F:\GitHub\alpha\software\compose-tetris\app\src\main\java\com\jetgame\tetris\ui\GameBody.kt is not ending with a new line." source="detekt.NewLineAtEndOfFile" />
+	<error line="113" column="42" severity="warning" message="This expression contains a magic number. Consider defining it to a well named constant." source="detekt.MagicNumber" />
+	<error line="172" column="42" severity="warning" message="This expression contains a magic number. Consider defining it to a well named constant." source="detekt.MagicNumber" />
+	<error line="265" column="37" severity="warning" message="This expression contains a magic number. Consider defining it to a well named constant." source="detekt.MagicNumber" />
+	<error line="282" column="37" severity="warning" message="This expression contains a magic number. Consider defining it to a well named constant." source="detekt.MagicNumber" />
+</file>
+<file name="software/compose-tetris/app/src/main/java/com/jetgame/tetris/ui/GameButton.kt">
+	<error line="39" column="5" severity="warning" message="The function GameButton is too long (73). The maximum length is 60." source="detekt.LongMethod" />
+	<error line="39" column="5" severity="warning" message="Function names should match the pattern: [a-z][a-zA-Z0-9]*" source="detekt.FunctionNaming" />
+	<error line="3" column="1" severity="warning" message="android.view.MotionEvent.* is a wildcard import. Replace it with fully qualified imports." source="detekt.WildcardImport" />
+	<error line="80" column="85" severity="warning" message="This expression contains a magic number. Consider defining it to a well named constant." source="detekt.MagicNumber" />
+	<error line="80" column="90" severity="warning" message="This expression contains a magic number. Consider defining it to a well named constant." source="detekt.MagicNumber" />
+</file>
+<file name="software/compose-tetris/app/src/main/java/com/jetgame/tetris/ui/GameScreen.kt">
+	<error line="116" column="19" severity="warning" message="The function GameScoreboard(modifier: Modifier, brickSize: Float, spirit: Spirit, score: Int, line: Int, level: Int, isMute: Boolean, isPaused: Boolean) has too many parameters. The current threshold is set to 6." source="detekt.LongParameterList" />
+	<error line="60" column="5" severity="warning" message="Function names should match the pattern: [a-z][a-zA-Z0-9]*" source="detekt.FunctionNaming" />
+	<error line="116" column="5" severity="warning" message="Function names should match the pattern: [a-z][a-zA-Z0-9]*" source="detekt.FunctionNaming" />
+	<error line="318" column="5" severity="warning" message="Function names should match the pattern: [a-z][a-zA-Z0-9]*" source="detekt.FunctionNaming" />
+	<error line="361" column="5" severity="warning" message="Function names should match the pattern: [a-z][a-zA-Z0-9]*" source="detekt.FunctionNaming" />
+	<error line="227" column="10" severity="warning" message="Using the forEach method on ranges has a heavy performance cost. Prefer using simple for loops." source="detekt.ForEachOnRange" />
+	<error line="226" column="6" severity="warning" message="Using the forEach method on ranges has a heavy performance cost. Prefer using simple for loops." source="detekt.ForEachOnRange" />
+	<error line="389" column="2" severity="warning" message="The file F:\GitHub\alpha\software\compose-tetris\app\src\main\java\com\jetgame\tetris\ui\GameScreen.kt is not ending with a new line." source="detekt.NewLineAtEndOfFile" />
+	<error line="127" column="43" severity="warning" message="This expression contains a magic number. Consider defining it to a well named constant." source="detekt.MagicNumber" />
+	<error line="133" column="25" severity="warning" message="This expression contains a magic number. Consider defining it to a well named constant." source="detekt.MagicNumber" />
+	<error line="136" column="55" severity="warning" message="This expression contains a magic number. Consider defining it to a well named constant." source="detekt.MagicNumber" />
+	<error line="141" column="54" severity="warning" message="This expression contains a magic number. Consider defining it to a well named constant." source="detekt.MagicNumber" />
+	<error line="212" column="42" severity="warning" message="This expression contains a magic number. Consider defining it to a well named constant." source="detekt.MagicNumber" />
+	<error line="219" column="28" severity="warning" message="This expression contains a magic number. Consider defining it to a well named constant." source="detekt.MagicNumber" />
+	<error line="221" column="31" severity="warning" message="This expression contains a magic number. Consider defining it to a well named constant." source="detekt.MagicNumber" />
+	<error line="239" column="42" severity="warning" message="This expression contains a magic number. Consider defining it to a well named constant." source="detekt.MagicNumber" />
+	<error line="294" column="33" severity="warning" message="This expression contains a magic number. Consider defining it to a well named constant." source="detekt.MagicNumber" />
+	<error line="301" column="36" severity="warning" message="This expression contains a magic number. Consider defining it to a well named constant." source="detekt.MagicNumber" />
+	<error line="304" column="33" severity="warning" message="This expression contains a magic number. Consider defining it to a well named constant." source="detekt.MagicNumber" />
+	<error line="339" column="30" severity="warning" message="This expression contains a magic number. Consider defining it to a well named constant." source="detekt.MagicNumber" />
+	<error line="340" column="31" severity="warning" message="This expression contains a magic number. Consider defining it to a well named constant." source="detekt.MagicNumber" />
+	<error line="343" column="47" severity="warning" message="This expression contains a magic number. Consider defining it to a well named constant." source="detekt.MagicNumber" />
+	<error line="343" column="53" severity="warning" message="This expression contains a magic number. Consider defining it to a well named constant." source="detekt.MagicNumber" />
+	<error line="344" column="53" severity="warning" message="This expression contains a magic number. Consider defining it to a well named constant." source="detekt.MagicNumber" />
+	<error line="344" column="59" severity="warning" message="This expression contains a magic number. Consider defining it to a well named constant." source="detekt.MagicNumber" />
+	<error line="347" column="31" severity="warning" message="This expression contains a magic number. Consider defining it to a well named constant." source="detekt.MagicNumber" />
+	<error line="367" column="27" severity="warning" message="This expression contains a magic number. Consider defining it to a well named constant." source="detekt.MagicNumber" />
+</file>
+<file name="software/compose-tetris/app/src/main/java/com/jetgame/tetris/logic/Utils.kt">
+	<error line="42" column="11" severity="warning" message="Top level constant names should match the pattern: [A-Z][_A-Z0-9]*" source="detekt.TopLevelPropertyNaming" />
+	<error line="19" column="5" severity="warning" message="Function names should match the pattern: [a-z][a-zA-Z0-9]*" source="detekt.FunctionNaming" />
+	<error line="106" column="95" severity="warning" message="The file F:\GitHub\alpha\software\compose-tetris\app\src\main\java\com\jetgame\tetris\logic\Utils.kt is not ending with a new line." source="detekt.NewLineAtEndOfFile" />
+	<error line="41" column="18" severity="warning" message="This expression contains a magic number. Consider defining it to a well named constant." source="detekt.MagicNumber" />
+	<error line="45" column="10" severity="warning" message="This expression contains a magic number. Consider defining it to a well named constant." source="detekt.MagicNumber" />
+	<error line="46" column="10" severity="warning" message="This expression contains a magic number. Consider defining it to a well named constant." source="detekt.MagicNumber" />
+	<error line="47" column="5" severity="warning" message="This expression contains a magic number. Consider defining it to a well named constant." source="detekt.MagicNumber" />
+	<error line="47" column="10" severity="warning" message="This expression contains a magic number. Consider defining it to a well named constant." source="detekt.MagicNumber" />
+	<error line="48" column="5" severity="warning" message="This expression contains a magic number. Consider defining it to a well named constant." source="detekt.MagicNumber" />
+	<error line="48" column="10" severity="warning" message="This expression contains a magic number. Consider defining it to a well named constant." source="detekt.MagicNumber" />
+	<error line="72" column="43" severity="warning" message="This expression contains a magic number. Consider defining it to a well named constant." source="detekt.MagicNumber" />
+</file>
+<file name="software/compose-tetris/app/src/main/java/com/jetgame/tetris/MainActivity.kt">
+	<error line="104" column="5" severity="warning" message="Function names should match the pattern: [a-z][a-zA-Z0-9]*" source="detekt.FunctionNaming" />
+	<error line="110" column="2" severity="warning" message="The file F:\GitHub\alpha\software\compose-tetris\app\src\main\java\com\jetgame\tetris\MainActivity.kt is not ending with a new line." source="detekt.NewLineAtEndOfFile" />
+	<error line="9" column="1" severity="warning" message="androidx.compose.runtime.* is a wildcard import. Replace it with fully qualified imports." source="detekt.WildcardImport" />
+	<error line="13" column="1" severity="warning" message="androidx.lifecycle.* is a wildcard import. Replace it with fully qualified imports." source="detekt.WildcardImport" />
+	<error line="15" column="1" severity="warning" message="com.jetgame.tetris.logic.* is a wildcard import. Replace it with fully qualified imports." source="detekt.WildcardImport" />
+	<error line="40" column="35" severity="warning" message="This expression contains a magic number. Consider defining it to a well named constant." source="detekt.MagicNumber" />
+	<error line="40" column="42" severity="warning" message="This expression contains a magic number. Consider defining it to a well named constant." source="detekt.MagicNumber" />
+</file>
+<file name="software/compose-tetris/app/src/main/java/com/jetgame/tetris/ui/LedNumber.kt">
+	<error line="38" column="5" severity="warning" message="Function names should match the pattern: [a-z][a-zA-Z0-9]*" source="detekt.FunctionNaming" />
+	<error line="93" column="5" severity="warning" message="Function names should match the pattern: [a-z][a-zA-Z0-9]*" source="detekt.FunctionNaming" />
+	<error line="61" column="13" severity="warning" message="Variable names should match the pattern: [a-z][A-Za-z0-9]*" source="detekt.VariableNaming" />
+	<error line="119" column="37" severity="warning" message="String.format(&quot;%0${digits}d&quot;, num) uses implicitly default locale for string formatting." source="detekt.ImplicitDefaultLocale" />
+	<error line="135" column="2" severity="warning" message="The file F:\GitHub\alpha\software\compose-tetris\app\src\main\java\com\jetgame\tetris\ui\LedNumber.kt is not ending with a new line." source="detekt.NewLineAtEndOfFile" />
+</file>
+<file name="software/compose-tetris/app/src/main/java/com/jetgame/tetris/ui/theme/Theme.kt">
+	<error line="31" column="5" severity="warning" message="Function names should match the pattern: [a-z][a-zA-Z0-9]*" source="detekt.FunctionNaming" />
+	<error line="47" column="2" severity="warning" message="The file F:\GitHub\alpha\software\compose-tetris\app\src\main\java\com\jetgame\tetris\ui\theme\Theme.kt is not ending with a new line." source="detekt.NewLineAtEndOfFile" />
+</file>
+<file name="software/compose-tetris/app/src/main/java/com/jetgame/tetris/logic/Brick.kt">
+	<error line="26" column="2" severity="warning" message="The file F:\GitHub\alpha\software\compose-tetris\app\src\main\java\com\jetgame\tetris\logic\Brick.kt is not ending with a new line." source="detekt.NewLineAtEndOfFile" />
+</file>
+<file name="software/compose-tetris/app/src/main/java/com/jetgame/tetris/logic/Spirit.kt">
+	<error line="68" column="2" severity="warning" message="The file F:\GitHub\alpha\software\compose-tetris\app\src\main\java\com\jetgame\tetris\logic\Spirit.kt is not ending with a new line." source="detekt.NewLineAtEndOfFile" />
+</file>
+<file name="software/compose-tetris/app/src/main/java/com/jetgame/tetris/ui/theme/Color.kt">
+	<error line="17" column="34" severity="warning" message="The file F:\GitHub\alpha\software\compose-tetris\app\src\main\java\com\jetgame\tetris\ui\theme\Color.kt is not ending with a new line." source="detekt.NewLineAtEndOfFile" />
+	<error line="5" column="23" severity="warning" message="This expression contains a magic number. Consider defining it to a well named constant." source="detekt.MagicNumber" />
+	<error line="6" column="23" severity="warning" message="This expression contains a magic number. Consider defining it to a well named constant." source="detekt.MagicNumber" />
+	<error line="7" column="23" severity="warning" message="This expression contains a magic number. Consider defining it to a well named constant." source="detekt.MagicNumber" />
+	<error line="8" column="21" severity="warning" message="This expression contains a magic number. Consider defining it to a well named constant." source="detekt.MagicNumber" />
+	<error line="11" column="25" severity="warning" message="This expression contains a magic number. Consider defining it to a well named constant." source="detekt.MagicNumber" />
+	<error line="12" column="25" severity="warning" message="This expression contains a magic number. Consider defining it to a well named constant." source="detekt.MagicNumber" />
+	<error line="13" column="28" severity="warning" message="This expression contains a magic number. Consider defining it to a well named constant." source="detekt.MagicNumber" />
+	<error line="14" column="30" severity="warning" message="This expression contains a magic number. Consider defining it to a well named constant." source="detekt.MagicNumber" />
+	<error line="17" column="23" severity="warning" message="This expression contains a magic number. Consider defining it to a well named constant." source="detekt.MagicNumber" />
+</file>
+<file name="software/compose-tetris/app/src/main/java/com/jetgame/tetris/ui/theme/Shape.kt">
+	<error line="11" column="2" severity="warning" message="The file F:\GitHub\alpha\software\compose-tetris\app\src\main\java\com\jetgame\tetris\ui\theme\Shape.kt is not ending with a new line." source="detekt.NewLineAtEndOfFile" />
+</file>
+<file name="software/compose-tetris/app/src/main/java/com/jetgame/tetris/ui/theme/Type.kt">
+	<error line="28" column="2" severity="warning" message="The file F:\GitHub\alpha\software\compose-tetris\app\src\main\java\com\jetgame\tetris\ui\theme\Type.kt is not ending with a new line." source="detekt.NewLineAtEndOfFile" />
+</file>
+</checkstyle>
